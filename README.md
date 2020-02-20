@@ -2,7 +2,9 @@
 
 Github Action to [problem match](https://github.com/actions/toolkit/blob/master/docs/problem-matchers.md)
 output from `gcc`. This allows warnings and errors from the compiler to be
-prominently featured in pull requests.
+prominently featured in pull requests like so:
+
+![Matcher in action in pull request](/images/example-pull-request.png?raw=true)
 
 This is a direct port of the `$gcc` rule from [vscode-cpptools](https://github.com/microsoft/vscode-cpptools).
 Typical usage will be:
